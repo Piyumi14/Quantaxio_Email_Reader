@@ -25,22 +25,6 @@ npm run dev
 Then open `http://localhost:3000`.
 
 ## Screenshots
-Save UI screenshots in `docs/screenshots/` with these names:
-- `example01.png`
-- `example02.png`
-- `example03.png`
-
-GitHub will render them in this README automatically:
-
-### Main UI
-![Main UI](docs/screenshots/ui-main.png)
-
-### Sample Loaded
-![Sample Loaded](docs/screenshots/ui-sample-loaded.png)
-
-### Extracted JSON Output
-![Extracted JSON Output](docs/screenshots/ui-extracted-json.png)
-
-## Notes
-- This implementation is intentionally simple and rule-based.
-- You can extend the regex list in `app/page.js` for more formats.
+(docs/screenshots/example01.png)
+(docs/screenshots/example02.png)
+(docs/screenshots/example03.png)
