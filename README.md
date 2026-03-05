@@ -24,6 +24,7 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
-## Notes
-- This implementation is intentionally simple and rule-based.
-- You can extend the regex list in `app/page.js` for more formats.
+## Screenshots
+![Screenshot 1](docs/screenshots/ex01.png)
+![Screenshot 2](docs/screenshots/ex02.png)
+![Screenshot 3](docs/screenshots/ex03.png)
