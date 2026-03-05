@@ -25,6 +25,6 @@ npm run dev
 Then open `http://localhost:3000`.
 
 ## Screenshots
-(docs/screenshots/example01.png)
-(docs/screenshots/example02.png)
-(docs/screenshots/example03.png)
+![Screenshot 1](docs/screenshots/example01.png)
+![Screenshot 2](docs/screenshots/example02.png)
+![Screenshot 3](docs/screenshots/example03.png)
