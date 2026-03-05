@@ -1,0 +1,124 @@
+:root {
+  --bg: #f3f6fa;
+  --panel: #ffffff;
+  --text: #1a2433;
+  --muted: #607086;
+  --accent: #0a7f5a;
+  --accent-dark: #086145;
+  --border: #dce5ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(160deg, #eef4fb 0%, #f9fcff 55%, #edf8f2 100%);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  min-height: 520px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sampleRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.sampleButton,
+.submitButton {
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sampleButton {
+  background: #e7edf6;
+  color: #203046;
+}
+
+.sampleButton:hover {
+  background: #d9e2ee;
+}
+
+.submitButton {
+  margin-top: 0.75rem;
+  background: var(--accent);
+  color: #fff;
+}
+
+.submitButton:hover {
+  background: var(--accent-dark);
+}
+
+.input {
+  width: 100%;
+  min-height: 390px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  resize: vertical;
+  font: inherit;
+}
+
+.output {
+  margin: 0;
+  flex: 1;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: #f8fbff;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: auto;
+  }
+
+  .input {
+    min-height: 250px;
+  }
+}
